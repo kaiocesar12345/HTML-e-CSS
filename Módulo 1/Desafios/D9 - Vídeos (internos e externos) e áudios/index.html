@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 9 - Vídeos e áudios</title>
+    <link rel="icon" type="image/x-icon" href="Favicon Batman.jpg">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+</head>
+<body>
+    <h1>Desafio 9 - Vídeos e áudios</h1>
+    <h2>Adicionando um vídeo e um áudio à minha página HTML com diferentes formatos para compatibilidade.</h2>
+    <h3>Vídeos internos:</h3>
+    <video controls loop width="40%" poster="Vídeos/thumb.png">
+        <source src="Vídeos/mp4.mp4" type="video/mp4">
+        <source src="Vídeos/m4v.m4v" type="video/m4v">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+    <h3>Vídeos externos:</h3>
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/BpmWTyKt3hk?si=8JjFiWPrmZMPAXz7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DQVkQCUj-5o?si=XzfmdGNGcdCTQ4F3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>Áudios:</h3>
+    <audio controls loop>
+        <source src="Áudios/mp3.mp3" type="audio/mp3">
+        <source src="Áudios/ogg.ogg" type="audio/ogg">
+        Seu navegador não suporta a tag de áudio.
+    </audio>
+</body>
+</html>

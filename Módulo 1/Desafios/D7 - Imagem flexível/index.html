@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 7 - Imagens Flexíveis</title>
+    <link rel="icon" type="image/x-icon" href="Favicon Batman.jpg">
+</head>
+<body>
+    <h2>Veja uma imagem se adaptar à largura do seu navegador, faça o teste.</h2>
+    <p>AVISO: AS IMAGENS NÃO TÊM DIMENSÃO EXATA, MAS ISSO NÃO AFETA A FUNCIONALIDADE.</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="pequeno.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="medio.png" type="image/png">
+        <img src="grande.png" alt="Imagem Flexível">
+    </picture>
+</body>
+</html>

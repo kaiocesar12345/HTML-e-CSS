@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10 - Site com vídeos</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .videos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        img {
+            width: 400px;
+            height: 275px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        @media (max-width: 1000px) {
+            .videos {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 10 - Site com vídeos</h1>
+    <h2>Clique em um desses quatro vídeos abaixo para abrir links externos:</h2>
+    <div class="videos">
+    <a href="video1.html">
+        <img src="Thumbs/homem-aranha1.png" alt="Vídeo 1">
+    </a>
+    <a href="video2.html">
+        <img src="Thumbs/casa-monstro2.png" alt="Vídeo 2">
+    </a>
+    <a href="video3.html">
+        <img src="Thumbs/chapeuzinho.png" alt="Vídeo 3">
+    </a>
+    <a href="video4.html">
+        <img src="Thumbs/avatar4.png" alt="Vídeo 4">
+    </a>
+</body>
+</html>

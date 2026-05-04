@@ -44,7 +44,7 @@ header{
     display: inline-flex;
     align-items: center;
     width: 100%;
-    padding: 100px 0px 100px 0px;
+    padding: 132px 0px 132px 0px;
     background: linear-gradient(145deg, #146b3a, #649b7e);
 }
 
@@ -58,21 +58,21 @@ header > .conteudo-hero{
 
 header > .conteudo-hero > h1{
     display: flex;
-    font: normal 4em 'IDroid', sans-serif;
+    font: normal 3.4em 'IDroid', sans-serif;
     text-align: left;
     color: #ffffff;
 }
 
 header > .conteudo-hero > #descrição-hero{
     max-width: 80%;
-    font: normal 1.2em 'Arial', helvetica, sans-serif;
+    font: bold 1.2em 'Arial', helvetica, sans-serif;
     text-align: left;
     text-indent: 4%;
     color: white;
 }
 
 header > .img-hero{
-    width: 30%;;
+    width: 30%;
     margin-right: 4%;
     border-radius: 999px;
 }

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Cordel_Rustika';
+    src: url('Cordel_Rustika.otf');
+}
+
+@font-face {
+    font-family: 'xilosa_.ttf';
+    src: url('xilosa_.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #aa8772;
+}
+
+header {
+    background-color: #502004;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Cordel_Rustika';
+    color: #fff;
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+header > p {
+    color: #fff;
+    font-size: 16px;
+}
+
+header > p > a {
+    color: #fff;
+}
+
+a:hover {
+    color: #db9f7d;
+}
+
+main > section{
+    font-size: 5vw;
+    font-family: 'xilosa_.ttf';
+    margin: 16% 0% 16% 6%;
+}
+
+main > section > p {
+    color: #3b1a06;
+}
+
+main > article > #segundo-paragrafo{
+    background-image: url(cordel.jpg);
+}

@@ -45,16 +45,39 @@ a:hover {
     color: #db9f7d;
 }
 
-main > section{
+main > article{
     font-size: 5vw;
     font-family: 'xilosa_.ttf';
     margin: 16% 0% 16% 6%;
 }
 
-main > section > p {
+main > article > p {
     color: #3b1a06;
 }
 
-main > article > #segundo-paragrafo{
-    background-image: url(cordel.jpg);
+#segundo-paragrafo{
+    margin: 0%;
+    padding: 16% 0% 16% 6%;
+    background-image: url('../Cordel/cordel2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.conteudo{
+    display: inline-block;
+    background-color: #000000b9;
+}
+
+#quarto-paragrafo{
+    margin: 0%;
+    padding: 16% 0% 16% 6%;
+    background-image: url('../Cordel/cordel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
 }
